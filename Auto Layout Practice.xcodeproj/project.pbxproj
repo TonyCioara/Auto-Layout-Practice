@@ -47,6 +47,8 @@
 		21C3A5671F74692E00AE564B /* Auto Layout PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Auto Layout PracticeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C3A56B1F74692E00AE564B /* Auto_Layout_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auto_Layout_PracticeUITests.swift; sourceTree = "<group>"; };
 		21C3A56D1F74692E00AE564B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21C3A57C1F7472CE00AE564B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main2.storyboard; sourceTree = "<group>"; };
+		21C3A57E1F7476A900AE564B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main3.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,8 @@
 				21C3A54B1F74692E00AE564B /* AppDelegate.swift */,
 				21C3A54D1F74692E00AE564B /* ViewController.swift */,
 				21C3A54F1F74692E00AE564B /* Main.storyboard */,
+				21C3A57B1F7472CE00AE564B /* Main2.storyboard */,
+				21C3A57D1F7476A900AE564B /* Main3.storyboard */,
 				21C3A5521F74692E00AE564B /* Assets.xcassets */,
 				21C3A5541F74692E00AE564B /* LaunchScreen.storyboard */,
 				21C3A5571F74692E00AE564B /* Info.plist */,
@@ -310,6 +314,22 @@
 				21C3A5551F74692E00AE564B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		21C3A57B1F7472CE00AE564B /* Main2.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21C3A57C1F7472CE00AE564B /* Base */,
+			);
+			name = Main2.storyboard;
+			sourceTree = "<group>";
+		};
+		21C3A57D1F7476A900AE564B /* Main3.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21C3A57E1F7476A900AE564B /* Base */,
+			);
+			name = Main3.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
